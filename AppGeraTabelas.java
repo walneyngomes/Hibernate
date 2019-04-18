@@ -11,7 +11,7 @@ public class AppGeraTabelas {
 		
 		try {
 			// Instanciando um cliente
-			Pessoa pessoa1 = new Pessoa("Adrino Santos", "90909");
+			Pessoa pessoa1 = new Pessoa(" Santos", "90909");
 			// Pessistencia
 			session.getTransaction().begin();
 			session.persist(pessoa1);
